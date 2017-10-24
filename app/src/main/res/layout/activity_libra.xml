@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.seba.prueba2.Libra">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="110dp"
+        android:id="@+id/linearLayout2">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="29dp"
+        android:textSize="32sp"
+        android:text="Libra" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Informacion"
+        android:textSize="29sp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="35dp"
+        android:textSize="15sp"
+        android:text="Los Libra se encuentran entre los signos más civilizados del zodiaco. Tienen encanto, elegancia y buen gusto, son amables y pacíficos. Les gusta la belleza y la armonía y son capaces de ser imparciales ante conflictos. No obstante, una vez que han llegado a una opinión sobre algo, no les gusta que se les contradiga. Les gusta contar con el apoyo de los demás. Un Libra tiende a ser sensible a las necesidades de los demás y suele ser muy sociable. No soportan el conflicto y la crueldad y son muy diplomáticos ante los conflictos. Suelen buscar el consenso ante una situación conflictiva. Saben valorar los esfuerzos de los demás y les gusta vivir y trabajar en equipo. El lado negativo de un Libra es frívolo y es fácil que cambiar de opinión o de lealtades. "
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="31dp"
+        android:text="Volver" />
+
+
+</RelativeLayout>

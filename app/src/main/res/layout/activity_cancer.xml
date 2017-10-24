@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.seba.prueba2.Cancer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="110dp"
+        android:id="@+id/linearLayout6">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="29dp"
+        android:textSize="32sp"
+        android:text="Cancer" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Informacion"
+        android:textSize="29sp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="35dp"
+        android:textSize="15sp"
+        android:text="El carácter de un Cáncer es el menos claro de todos los signos del zodiaco. Un Cáncer puede ser desde tímido y aburrido hasta brillante y famoso. Los Cáncer son conservadores y les encanta la seguridad y el calor de su hogar. De hecho, para los hombres Cáncer, su hogar es como un nido, un refugio donde ir cuando el estrés de su trabajo es demasiado. La casa de un Cáncer tiende a ser su refugio personal más que un escaparate para deslumbrar a los demás. Un Cáncer entiende que hay momentos para ser sociable y otros momentos para ser solitario. Esto es una de las contradicciones en su carácter. Desde fuera parecen decididos, resistentes, tercos, tenaces, energéticos, sabios e intuitivos. No obstante, los que les conocen desde la intimidad pueden ver un tipo de persona totalmente distinto - alguien sensible sobre todo hacia las personas a las que quiere."
+        android:layout_alignBottom="@+id/linearLayout6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="31dp"
+        android:text="Volver" />
+
+</RelativeLayout>

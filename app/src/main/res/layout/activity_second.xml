@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.seba.prueba2.SecondActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Second Activity"
+        android:textSize="32sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.608"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signos"
+        android:textSize="32sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.017"
+        app:layout_constraintHorizontal_bias="0.501"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnPantalla2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piscis"
+
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnPantalla2"
+        android:layout_centerHorizontal="true"
+        android:text="Virgo" />
+
+    <Button
+        android:id="@+id/button444"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="Geminis" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aries"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnPantalla2"
+        android:layout_alignStart="@+id/btnPantalla2" />
+
+    <Button
+        android:id="@+id/aaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libra"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:id="@+id/eeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button444"
+        android:layout_alignRight="@+id/button444"
+        android:layout_alignTop="@+id/aaaa"
+        android:text="Acuario" />
+
+    <Button
+        android:id="@+id/iiii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="35dp"
+        android:text="Cancer" />
+
+    <Button
+        android:id="@+id/uuuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/aaaa"
+        android:layout_alignStart="@+id/aaaa"
+        android:layout_alignTop="@+id/iiii"
+        android:text="Escorpio" />
+
+    <Button
+        android:id="@+id/oooo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eeee"
+        android:layout_alignStart="@+id/eeee"
+        android:layout_alignTop="@+id/uuuu"
+        android:text="Leo" />
+
+    <Button
+        android:id="@+id/eaea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iiii"
+        android:layout_alignStart="@+id/iiii"
+        android:layout_below="@+id/iiii"
+        android:layout_marginTop="34dp"
+        android:text="Capricornio" />
+
+    <Button
+        android:id="@+id/oeoe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/eaea"
+        android:layout_alignBottom="@+id/eaea"
+        android:layout_alignLeft="@+id/uuuu"
+        android:layout_alignStart="@+id/uuuu"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:text="Sagitario" />
+
+    <Button
+        android:id="@+id/taaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/oooo"
+        android:layout_alignStart="@+id/oooo"
+        android:layout_alignTop="@+id/oeoe"
+        android:text="Tauro" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.seba.prueba2.Virgo">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="26dp"
+        android:text="Virgo"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="20dp"
+        android:textSize="29sp"
+        android:text="Informacion" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Virgo, el único signo representado por una mujer, es un signo caracterizado por su precisión, su convencionalidad, su actitud reservada y su afán, a veces hasta obsesión, con la limpieza. Los Virgo suelen ser observadores y pacientes. Pueden parecer a veces fríos, de hecho les cuesta hacer grandes amigos. El hecho que muchas de sus relaciones con otros resultan ser superficiales es porque en realidad los Virgo temen dar riendas a sus sentimientos y les falta tener seguridad en sus emociones y opiniones. Prefieren actuar con reservas y con una disposición agradable. Suelen ser discretos, amables y divertidos con otras personas y pueden ayudar a resolver los problemas de terceros con una habilidad y sensatez que muchas veces les falta en sus propias relaciones personales."
+        android:textSize="15sp"
+        android:layout_above="@+id/button12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="Volver" />
+</RelativeLayout>
+
